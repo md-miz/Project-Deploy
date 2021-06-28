@@ -1,0 +1,19 @@
+<br>
+<div class="col-md-6 offset-md-3">
+<form #addBook="ngForm" (ngSubmit)="onSubmit(addBook.value)"  >
+    
+   <div class="form-group">
+        <label for="catName">Category Name</label>
+        <input type="text" class="form-control" id="catName" placeholder="Enter Category" #catName (ngModel)="catName"  name="catName">
+       
+        <label for="bookName">Book Name</label>
+        <input type="text" class="form-control" id="bookName" placeholder="Enter BookName" #bookName (ngModel)="bookName" name="bookName">
+      
+        <label for="bookPrice">Book Price</label>
+        <input type="text" class="form-control" id="bookPrice"placeholder="Enter BookPrice" #bookPrice (ngModel)="bookPrice" name="bookPrice">
+    </div>
+    <button class="btn btn-success" type="submit">Submit</button>
+    
+  
+</form>
+</div>

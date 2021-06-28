@@ -1,0 +1,34 @@
+nav.navbar.navbar-default {
+    min-height: 150px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+
+  li a {
+    display: inline;
+    font-size: larger;
+    font-weight:500 ;
+    font-style:initial;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:wavy;
+    text-transform:uppercase;
+  } 
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #4CAF50;
+    ;
+  }
+  
+  

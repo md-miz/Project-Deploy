@@ -1,0 +1,18 @@
+<br>
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+    <th>Book Id</th>
+    <th>Book Name</th>
+    <th>Book Price</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let book of books">
+        <td>{{book.bookId}}</td>
+        <td>{{book.bookName}}</td>
+        <td>{{book.bookPrice}}</td>
+
+    </tr>
+</tbody>
+</table>

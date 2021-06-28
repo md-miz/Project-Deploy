@@ -1,0 +1,15 @@
+<br>
+<table  class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+        <th>Cat Id</th>
+        <th>Cat Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cat of cats">
+        <td>{{cat.catId}}</td>
+        <td>{{cat.catName}}</td>
+        </tr>
+    </tbody>
+</table>
